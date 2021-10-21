@@ -40,6 +40,10 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-    ['sidebar']
+    ['sidebar'],
+    [
+      '@vuepress/google-analytics',
+      { 'ga': '' } // UA-00000000-0
+    ]
   ]
 }
