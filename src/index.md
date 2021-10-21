@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: ubuntu Budgie notes by own.
+tagline: Intel NUC と Ubuntu Budgie を使った構築メモ
 actionText: Quick Start →
 actionLink: /guide/
 features:

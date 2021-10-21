@@ -1,14 +1,14 @@
-const { description } = require('../../package')
-
 module.exports = {
+  dest: 'docs/',
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'まばさしの開発記録',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'Intel NUC と Ubuntu Budgie を使った構築メモ',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
