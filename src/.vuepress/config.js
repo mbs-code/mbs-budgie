@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/mbs-budgie/',
   dest: 'docs/',
 
   /**
