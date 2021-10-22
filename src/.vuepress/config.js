@@ -44,7 +44,9 @@ module.exports = {
     ['sidebar'],
     [
       '@vuepress/google-analytics',
-      { 'ga': '' } // UA-00000000-0
+      {
+        'ga': 'G-0PKJYNP7MQ',
+      },
     ]
   ],
 }
