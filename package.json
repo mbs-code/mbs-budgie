@@ -13,7 +13,6 @@
     "build": "vuepress build src"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^2.0.0-beta.26",
     "vuepress": "^1.5.3",
     "vuepress-plugin-sidebar": "^0.2.1"
   },
