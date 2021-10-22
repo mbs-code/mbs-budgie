@@ -43,10 +43,10 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
     ['sidebar'],
     [
-      '@vuepress/google-analytics',
+      '@vuepress/plugin-google-analytics',
       {
-        'ga': 'G-0PKJYNP7MQ',
+        id: 'G-0PKJYNP7MQ',
       },
-    ]
+    ],
   ],
 }
