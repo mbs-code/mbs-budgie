@@ -46,5 +46,13 @@ module.exports = {
       '@vuepress/google-analytics',
       { 'ga': '' } // UA-00000000-0
     ]
-  ]
+  ],
+
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': '/mbs-budgie/assets',
+      },
+    },
+  },
 }
