@@ -14,6 +14,10 @@ module.exports = {
     ]],
   ],
 
+  config: (md) => {
+    md.options.linkify = true
+  },
+
   themeConfig: {
     repo: '',
     editLinks: false,
@@ -25,6 +29,14 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-    ['sidebar'],
+    [
+      'sidebar', {
+        grouping: true,
+        groupOptions: {
+          collapsable: false,
+          sidebarDepth: 2,
+        },
+      }
+    ],
   ],
 }

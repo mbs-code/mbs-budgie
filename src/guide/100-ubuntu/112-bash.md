@@ -1,8 +1,13 @@
+
 # bash
+
+開発者の命。  
+bash シェルを使いやすいように設定する。  
+
+
 
 ## .bashrc の設定
 
-開発者の命。  
 `.bashrc` にシェルの設定を追加する。  
 
 ```bash
@@ -65,44 +70,4 @@ ubuntu は `.profile` 系らしい。
 ちなみに `.bash_profile` を作成すると、そっちが優先して読み込まれて `.profile` は無視されるので注意！  
 
 参考: [bash \- I cannot find \.bash\_profile in ubuntu \- Ask Ubuntu](https://askubuntu.com/questions/510709/i-cannot-find-bash-profile-in-ubuntu)
-:::
-
-
-
-## ユーザーフォルダの日本語化
-
-OSを日本語設定でインストールするとユーザーフォルダが日本語になる。  
-早めに対処しよう。  
-
-（操作が大変なので）GUIで下のコマンドを打つだけ！  
-
-```bash
-# 英語でユーザーディレクトリを更新する
-$ LANG=C xdg-user-dirs-gtk-update
-
-# xdg-open でディレクトリを開く
-$ open .
-```
-
-打つと下のウインドウが出てくる。  
-`Don't ask me this again` にチェックを入れて `Update Names` を押す。  
-
-<img :src="$withBase('/assets/folder-jp-01.png')" height="480px">  
-
-`open` コマンドでフォルダを見ると「テンプレート」だけ残ってしまっている。  
-中にファイルがある場合はそのまま残るらしい。  
-
-なので、中身を `Templates` の中に移動させて消し去ろう。  
-
-<img :src="$withBase('/assets/folder-jp-02.png')" height="480px">  
-
-（こういう移動系はコマンドでやりたくないマン...）  
-
-[LANG=C xdg\-user\-dirs\-gtk\-update](https://www.rough-and-cheap.jp/linux/ubuntu-change-xdg-directory-name/)
-
-::: tip
-`Templates` はデスクトップを右クリックした時に、新しいドキュメントを作成で表示されるファイル群。  
-これがコピーされるのかな。  
-
-<img :src="$withBase('/assets/folder-jp-03.png')" height="480px">  
 :::
