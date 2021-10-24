@@ -33,7 +33,7 @@ module.exports = {
       'sidebar', {
         grouping: true,
         groupOptions: {
-          collapsable: true,
+          collapsable: false,
           sidebarDepth: 2,
         },
       }
