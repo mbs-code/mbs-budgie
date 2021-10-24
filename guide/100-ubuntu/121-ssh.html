@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SSH | まばさしの開発記録</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-0PKJYNP7MQ"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-0PKJYNP7MQ');</script>
+    <meta name="description" content="Intel NUC と Ubuntu Budgie を使った構築メモ">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/mbs-budgie/assets/css/0.styles.9e6c354b.css" as="style"><link rel="preload" href="/mbs-budgie/assets/js/app.d57ec097.js" as="script"><link rel="preload" href="/mbs-budgie/assets/js/2.01efd1c6.js" as="script"><link rel="preload" href="/mbs-budgie/assets/js/16.711f3b89.js" as="script"><link rel="prefetch" href="/mbs-budgie/assets/js/10.5ccfe868.js"><link rel="prefetch" href="/mbs-budgie/assets/js/11.2afa5073.js"><link rel="prefetch" href="/mbs-budgie/assets/js/12.bd1747f7.js"><link rel="prefetch" href="/mbs-budgie/assets/js/13.fe8eaea6.js"><link rel="prefetch" href="/mbs-budgie/assets/js/14.af120534.js"><link rel="prefetch" href="/mbs-budgie/assets/js/15.15885527.js"><link rel="prefetch" href="/mbs-budgie/assets/js/17.2b748bc4.js"><link rel="prefetch" href="/mbs-budgie/assets/js/18.fe366476.js"><link rel="prefetch" href="/mbs-budgie/assets/js/19.09187077.js"><link rel="prefetch" href="/mbs-budgie/assets/js/20.0ab7a6d7.js"><link rel="prefetch" href="/mbs-budgie/assets/js/21.95a5f875.js"><link rel="prefetch" href="/mbs-budgie/assets/js/22.488d2e3b.js"><link rel="prefetch" href="/mbs-budgie/assets/js/23.d677964d.js"><link rel="prefetch" href="/mbs-budgie/assets/js/3.e98cab4b.js"><link rel="prefetch" href="/mbs-budgie/assets/js/4.85f56c05.js"><link rel="prefetch" href="/mbs-budgie/assets/js/5.c371cdea.js"><link rel="prefetch" href="/mbs-budgie/assets/js/6.19bbf624.js"><link rel="prefetch" href="/mbs-budgie/assets/js/7.853b0c4d.js"><link rel="prefetch" href="/mbs-budgie/assets/js/8.fc3b7288.js"><link rel="prefetch" href="/mbs-budgie/assets/js/9.390fb75b.js">
+    <link rel="stylesheet" href="/mbs-budgie/assets/css/0.styles.9e6c354b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/mbs-budgie/" class="home-link router-link-active"><!----> <span class="site-name">まばさしの開発記録</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/mbs-budgie/" class="sidebar-heading clickable router-link-active"><span>Home</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/mbs-budgie/" aria-current="page" class="sidebar-link">Home</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/mbs-budgie/guide" class="sidebar-heading clickable router-link-active"><span>Introduction</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/mbs-budgie/guide/" aria-current="page" class="sidebar-link">Introduction</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/mbs-budgie/guide/000-readme" class="sidebar-heading clickable"><span>環境・端末</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/mbs-budgie/guide/000-readme/" class="sidebar-link">Introduction</a></li><li><a href="/mbs-budgie/guide/000-readme/001.env.html" class="sidebar-link">端末・OS</a></li><li><a href="/mbs-budgie/guide/000-readme/011-nuc.html" class="sidebar-link">Intel NUC</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/mbs-budgie/guide/100-ubuntu" class="sidebar-heading clickable router-link-active open"><span>Ubuntu</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/mbs-budgie/guide/100-ubuntu/" aria-current="page" class="sidebar-link">Introduction</a></li><li><a href="/mbs-budgie/guide/100-ubuntu/101-init.html" class="sidebar-link">アップデートとエディタ</a></li><li><a href="/mbs-budgie/guide/100-ubuntu/111-account.html" class="sidebar-link">アカウント作成</a></li><li><a href="/mbs-budgie/guide/100-ubuntu/112-bash.html" class="sidebar-link">bash</a></li><li><a href="/mbs-budgie/guide/100-ubuntu/121-ssh.html" aria-current="page" class="active sidebar-link">SSH</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/mbs-budgie/guide/100-ubuntu/121-ssh.html#ssh-接続の設定" class="sidebar-link">SSH 接続の設定</a></li><li class="sidebar-sub-header"><a href="/mbs-budgie/guide/100-ubuntu/121-ssh.html#ssh-接続を行う" class="sidebar-link">SSH 接続を行う</a></li></ul></li><li><a href="/mbs-budgie/guide/100-ubuntu/122-xrdp.html" class="sidebar-link">XRDP</a></li><li><a href="/mbs-budgie/guide/100-ubuntu/151-wol.html" class="sidebar-link">Wake On Lan</a></li><li><a href="/mbs-budgie/guide/100-ubuntu/181.tips.html" class="sidebar-link">Tips</a></li><li><a href="/mbs-budgie/guide/100-ubuntu/191-jp.html" class="sidebar-link">日本語</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="ssh"><a href="#ssh" class="header-anchor">#</a> SSH</h1> <p>linux の使用目的の大半は <code>ssh</code> 。<br>
+母艦から操作できるようにしたほうが楽なので使えるようにする。</p> <h2 id="ssh-接続の設定"><a href="#ssh-接続の設定" class="header-anchor">#</a> SSH 接続の設定</h2> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># インスコ</span>
+$ <span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> openssh-server
+
+<span class="token comment"># （一応）設定のコピー</span>
+$ <span class="token builtin class-name">cd</span> /etc/ssh
+$ <span class="token function">sudo</span> <span class="token function">cp</span> sshd_config sshd_config.copy
+
+<span class="token comment"># 編集</span>
+$ <span class="token function">sudo</span> <span class="token function">vim</span> sshd_config
+
+<span class="token comment"># 設定を適用するための再起動</span>
+$ <span class="token function">sudo</span> systemctl restart sshd
+</code></pre></div><p><code>sshd_config</code> の編集箇所は下の通り。<br>
+設定はお好みで。</p> <ul><li>Port をデフォルトのものから移動 (Port)</li> <li>特定のユーザーのみログインOKに (AllowUsers)</li> <li>root でのログインを禁止に (PermitRootLogin)</li> <li>鍵認証を明示的に許可 (PubkeyAuthentication)</li> <li>パスワード認証を禁止に (PasswordAuthentication)
+<ul><li>192.168.1.* からのアクセス時だけパスワード認証OK</li></ul></li></ul> <div class="language-diff extra-class"><pre class="language-diff"><code>$ diff -U 0 sshd_config.copy sshd_config
+<span class="token coord">--- sshd_config.copy    2021-10-20 18:14:48.462826795 +0900</span>
+<span class="token coord">+++ sshd_config 2021-10-20 18:49:11.533569734 +0900</span>
+<span class="token coord">@@ -15 +15 @@</span>
+<span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">#Port 22
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">Port &lt;ポート番号&gt;
+</span></span><span class="token coord">@@ -18,0 +19 @@</span>
+<span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">AllowUsers &lt;ユーザー名&gt;
+</span></span><span class="token coord">@@ -34 +35 @@</span>
+<span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">#PermitRootLogin prohibit-password
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">PermitRootLogin no
+</span></span><span class="token coord">@@ -39 +40 @@</span>
+<span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">#PubkeyAuthentication yes
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">PubkeyAuthentication yes
+</span></span><span class="token coord">@@ -58 +59 @@</span>
+<span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">#PasswordAuthentication yes
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">PasswordAuthentication no
+</span></span><span class="token coord">@@ -123,0 +125,2 @@</span>
+<span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">Match Address 192.168.1.*
+</span><span class="token prefix inserted">+</span><span class="token line">  PasswordAuthentication yes
+</span></span></code></pre></div><p>参考: <a href="https://www.server-world.info/query?os=Ubuntu_20.04&amp;p=ssh" target="_blank" rel="noopener noreferrer">Ubuntu 20.04 : SSH サーバー インストールと設定 : Server World<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a><br>
+参考: <a href="https://takuya-1st.hatenablog.jp/entry/20091022/1256236902" target="_blank" rel="noopener noreferrer">外からは公開鍵、内側だけはパスワード許可 - sshd の ローカル側だけパスワードを使えるようにする。 - それマグで！<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a><br>
+参考: <a href="https://qiita.com/mirai_is_here/items/0120d584dd0c5ea0664d" target="_blank" rel="noopener noreferrer">CentOS7 SSH設定の記録 - Qiita<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>ローカルネットワークではパスワード認証、外部ネットワークでは鍵認証という形にした。<br>
+ローカルでは任意のPCからアクセスしたい可能性が想定されるので。<br>
+鍵設定はまた今度。（直近で使う予定がない）</p> <p>てか <code>Match</code> 便利だねぇ... 複雑なこともなんでもできそう。<br>
+個人的には鍵なら全てのユーザーにログイン可能、ってことをやりたかったんだけど、Matchにその構文が無かった...。</p> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p><code>/etc/ssh</code> に <code>ssh_config</code> と <code>sshd_config</code> という2つのファイルがあって、なにが違うのか気になったので調査した。</p> <ul><li><code>ssh_config</code>: ssh で接続するときの設定</li> <li><code>sshd_config</code>: ssh で接続されるときの設定</li></ul> <p>あーなるほど。<br>
+ssh コマンドもこのパッケージの一部なのね。</p> <p>参考: <a href="https://qiita.com/pocket8137/items/e504fa2481d5b9f0c064" target="_blank" rel="noopener noreferrer">sshとsshdの違い - Qiita<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <h2 id="ssh-接続を行う"><a href="#ssh-接続を行う" class="header-anchor">#</a> SSH 接続を行う</h2> <p>母艦、別のPCから以下のコマンドで SSH 接続できる。</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">ssh</span> <span class="token operator">&lt;</span>ユーザー名<span class="token operator">&gt;</span>@<span class="token operator">&lt;</span>アドレス<span class="token operator">&gt;</span> -p <span class="token operator">&lt;</span>ポート番号<span class="token operator">&gt;</span>
+<span class="token operator">=</span><span class="token operator">&gt;</span> パスワード入力
+</code></pre></div><p>これができたら後はリモートで作業しても良い。<br>
+PCはログアウトして放置しておこう。</p> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <div class="language-bash extra-class"><pre class="language-bash"><code>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED<span class="token operator">!</span>     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+</code></pre></div><p>これは前回のアクセス時と環境が違うよ！という警告です。<br>
+ホストの公開鍵が違うので中間者攻撃されているかもよ、という親切心の塊です。<br>
+焦らず対象のホストの記録をローカルから消しましょう。</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ ssh-keygen -R <span class="token operator">&lt;</span>アドレス<span class="token operator">&gt;</span>
+</code></pre></div><p>（はじめサーバー側のエラーかと思って、設定ファイルとにらめっこしていたのは内緒。）<br>
+（英語は Google 翻訳にかけてでも読もう。）</p> <p>参考: <a href="https://qiita.com/hnw/items/0eeee62ce403b8d6a23c" target="_blank" rel="noopener noreferrer">「SSHホスト鍵が変わってるよ！」と怒られたときの対処 - Qiita<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/mbs-budgie/guide/100-ubuntu/112-bash.html" class="prev">
+        bash
+      </a></span> <span class="next"><a href="/mbs-budgie/guide/100-ubuntu/122-xrdp.html">
+        XRDP
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/mbs-budgie/assets/js/app.d57ec097.js" defer></script><script src="/mbs-budgie/assets/js/2.01efd1c6.js" defer></script><script src="/mbs-budgie/assets/js/16.711f3b89.js" defer></script>
+  </body>
+</html>
